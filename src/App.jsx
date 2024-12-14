@@ -8,11 +8,7 @@ const App = () => {
     <div>
                
 
-          
 
-               <NavLink to="/signup">Signup</NavLink>
-                
-               <NavLink to="/signin">Signin</NavLink>
      
       <Routes>
 
