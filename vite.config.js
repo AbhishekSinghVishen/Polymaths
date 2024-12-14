@@ -1,11 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/', // Use '/' if hosted at the root domain, or '/subpath/' for subpath hosting
   build: {
-    outDir: 'dist', // Ensure the output directory is set correctly
-    assetsDir: 'assets', // Assets will be placed in the assets directory
+    outDir: 'dist',
+    assetsDir: 'assets',
   },
-})
+});
