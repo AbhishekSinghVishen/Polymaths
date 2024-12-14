@@ -6,7 +6,13 @@ import { Routes, Route,NavLink } from 'react-router'
 const App = () => {
   return (
     <div>
+               
 
+          
+
+               <NavLink to="/signup">Signup</NavLink>
+                
+               <NavLink to="/signin">Signin</NavLink>
      
       <Routes>
 
