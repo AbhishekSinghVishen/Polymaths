@@ -49,7 +49,7 @@ const SigninPage = () => {
             </div>
           </div>
           <button className="w-full text-[14px] text-sendGray flex items-center justify-center bg-white py-[13px] px-6 rounded mt-[17px]">
-          <img src="/mi_email.svg" alt="Google" className="w-[20px] h-[20px] mr-[8px] " />
+          <img src="../../public/mi_email.svg" alt="Google" className="w-[20px] h-[20px] mr-[8px] " />
             Send me a login link
           </button>
           <div className='mt-[13px] mb-[13px] flex items-center justify-center'>
@@ -60,7 +60,7 @@ const SigninPage = () => {
           </div>
           
           <button className="w-full text-[14px] flex items-center justify-center bg-customGray border text-[#F6F6F6] border-gray-300  py-[15px] rounded transition focus:outline-none focus:ring-2 focus:ring-borderGray">
-            <img src="/Google.svg" alt="Google" className="w-[20px] h-[20px] mr-[8px] " />
+            <img src="../../public/Google.svg" alt="Google" className="w-[20px] h-[20px] mr-[8px] " />
             Google
           </button>
 
